@@ -1,0 +1,16 @@
+baseURL = 'http://donreno.github.io'
+languageCode = 'en-us'
+title = 'DonRenito'
+theme = 'hugo-goa'
+author = "Don Renito (Renato San Martin)"
+[params]
+author = "Don Renito (Renato San Martin)"
+intro = "Alien Beast and Software engineer"
+authorimage = "profile.jpg"
+description = "Software engineer, crafter and caster, team player and drinking master (coffee of course... and the occasional beer)."
+
+## Social Accounts
+[params.social]
+github = "donreno"
+linkedin = "renato-san-martin-37306017"
+steam = "donreno"
