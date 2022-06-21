@@ -1,16 +1,30 @@
 baseURL = 'http://donreno.github.io'
 languageCode = 'en-us'
 title = 'DonRenito'
-theme = 'hugo-goa'
+theme = 'bare'
 author = "Don Renito (Renato San Martin)"
-[params]
-author = "Don Renito (Renato San Martin)"
-intro = "Alien Beast and Software engineer"
-authorimage = "profile.jpg"
-description = "Software engineer, crafter and caster, team player and drinking master (coffee of course... and the occasional beer)."
 
-## Social Accounts
-[params.social]
-github = "donreno"
-linkedin = "renato-san-martin-37306017"
-steam = "donreno"
+[taxonomies]
+  tag = "tags"
+  series = "series"
+
+[params]
+mainSections = ["post"]
+author = "Renato San Martin"
+email = "renatosmb@gmail.com"
+repoLink = "https://github.com/donreno/donreno.github.io"
+description = "Infiltrated alien beast playing the role of a Software engineer who likes videogames, food, beer and coffee."
+# PostCSS is harder than it should be to get working on a theme
+# example site. It's easy on _your_ site.
+postcss = false
+# Include the author name in the <title> of articles
+includeAuthorInTitle = true
+disableAttribution=true
+
+[[params.social]]
+icon = "github"
+url = "https://github.com/donreno/"
+
+[[params.social]]
+icon = "linkedin"
+url = "https://www.linkedin.com/in/renato-san-martin-37306017/"
