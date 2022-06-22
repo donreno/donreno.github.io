@@ -1,4 +1,4 @@
-baseURL = 'http://donreno.github.io'
+baseURL = 'https://donreno.github.io'
 languageCode = 'en-us'
 title = 'DonRenito'
 theme = 'bare'
