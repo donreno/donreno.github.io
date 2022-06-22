@@ -1,0 +1,29 @@
+{{ define "hero-body" }}
+<div class="container">
+  <article class="media">
+    <figure class="image is-256x256 media-left">
+      <img alt="" class="is-rounded" src="https://www.gravatar.com/avatar/{{ md5 $.Site.Params.email }}?s=256"
+           width="32" height="32">
+    </figure>
+    <div class="media-content">
+      <h1 class="title">
+        {{ $.Site.Params.author }}
+      </h1>
+      <h2 class="subtitle">
+        Also known as... {{ $.Site.Params.authorAKA }}
+      </h2>
+      <div class="content">
+        {{ $.Site.Params.description }}
+      </div>
+    </div>
+  </article>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<h1 class="title">About me</h1>
+<br/>
+<div class="block subtitle">
+Software engineer passionate about software architecture, coding problems, hardware, home labs, golang, one piece, kubernetes, lifestyle, traveling and a lot of weird and boring stuff.
+</div>
+{{ end }}

@@ -1,25 +1,26 @@
 baseURL = 'https://donreno.github.io'
 languageCode = 'en-us'
-title = 'DonRenito'
+title = "DonRenito's blog"
 theme = 'bare'
 author = "Don Renito (Renato San Martin)"
 
 [taxonomies]
   tag = "tags"
-  series = "series"
 
 [params]
 mainSections = ["post"]
-author = "Renato San Martin"
+author = "DonReno"
+authorAKA="Renato San Martin"
 email = "renatosmb@gmail.com"
 repoLink = "https://github.com/donreno/donreno.github.io"
-description = "Infiltrated alien beast playing the role of a Software engineer who likes videogames, food, beer and coffee."
+description = "Infiltrated alien beast"
 # PostCSS is harder than it should be to get working on a theme
 # example site. It's easy on _your_ site.
 postcss = false
 # Include the author name in the <title> of articles
 includeAuthorInTitle = true
 disableAttribution=true
+hero_colour = "link"
 
 [[params.social]]
 icon = "github"
