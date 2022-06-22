@@ -13,7 +13,7 @@ author = "DonReno"
 authorAKA="Renato San Martin"
 email = "renatosmb@gmail.com"
 repoLink = "https://github.com/donreno/donreno.github.io"
-description = "Infiltrated alien beast"
+description = "Non-IA Alien beast"
 # PostCSS is harder than it should be to get working on a theme
 # example site. It's easy on _your_ site.
 postcss = false

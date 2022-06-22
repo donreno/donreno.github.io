@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --ignoreCache
+        run: git submodule update --init --recursive --depth=1 && hugo --minify --ignoreCache
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
